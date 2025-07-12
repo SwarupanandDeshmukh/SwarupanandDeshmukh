@@ -1,8 +1,8 @@
-<img src = "https://user-images.githubusercontent.com/36594527/117921831-c3d32c80-b334-11eb-8bab-a423ac34272a.png">
+<img src = "https://user-images.githubusercontent.com/65373279/148280039-301b677b-74e7-49f8-af75-15e7c9253d74.png">
 <h1 align="center">Hi 👋, I'm Swarupanand Deshmukh</h1>
 <h3 align="center">Turning ideas into Code — From AI to Games to the Web.</h3>
 
-<img src = "https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width = "200" align = "right"><br>
+<img src = "https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width = "190" align = "right"><br>
 
 
 - 🌱 I’m currently learning **AIML,NLP**
@@ -22,6 +22,6 @@
 
 <br><p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=swarupananddeshmukh&" alt="swarupananddeshmukh" /></p>
 
-<p>&nbsp;&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=swarupananddeshmukh&show_icons=true&locale=en" alt="swarupananddeshmukh" /></p>
+<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=swarupananddeshmukh&show_icons=true&locale=en" alt="swarupananddeshmukh" /></p>
 
 
