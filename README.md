@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Swarupanand Deshmukh</h1>
 <h3 align="center">Turning ideas into Code — From AI to Games to the Web.</h3>
 
-<img src = "https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width = "200" align = "right">
+<img src = "https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width = "170" align = "right">
 
 
 - 🌱 I’m currently learning **AIML,NLP**
