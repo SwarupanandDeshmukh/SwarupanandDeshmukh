@@ -5,7 +5,7 @@
 <img src = "https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width = "190" align = "right"><br>
 
 
-- 🌱 I’m currently learning **AIML,NLP**
+- 🌱 I’m currently learning **AIML,NLP,MLOPs.**
 
 - 📫 How to reach me **swarupananddeshmukh@gmail.com**
 
