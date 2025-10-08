@@ -4,7 +4,7 @@
 <h3 align="center">Building Scalable Solutions & Intelligent Systems</h3>
 
 <p align="center">
-  <i>"First, solve the problem. Then, write the code." - John Johnson</i>
+  <i>"Mindset makes all the difference." </i>
 </p>
 
 ## 🚀 About Me
@@ -79,7 +79,7 @@
 
 <div align="center">
   
-  <i>💡 "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." - Martin Fowler</i>
+  <i> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." </i>
   
   <img src="https://komarev.com/ghpvc/?username=swarupananddeshmukh&color=blueviolet" alt="Profile Views"/>
   
