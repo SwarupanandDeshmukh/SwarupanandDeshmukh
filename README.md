@@ -60,7 +60,7 @@
 
 <div align="center">
   
-  ![Snake animation](https://github.com/swarupananddeshmukh/swarupananddeshmukh/blob/output/github-contribution-grid-snake.svg)
+ ![Snake animation](https://github.com/SwarupanandDeshmukh/SwarupanandDeshmukh/blob/output/github-contribution-grid-snake.svg)
   
 </div>
 
