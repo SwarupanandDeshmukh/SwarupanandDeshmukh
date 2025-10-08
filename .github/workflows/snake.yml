@@ -12,11 +12,15 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
