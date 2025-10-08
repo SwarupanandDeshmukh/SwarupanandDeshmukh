@@ -55,14 +55,13 @@
   ![GitHub Streak](https://streak-stats.demolab.com/?user=swarupananddeshmukh&theme=radical&hide_border=true)
   
 </div>
+## 🐍 My Contribution Graph
 
-## 🐍 Contribution Graph
-
-<div align="center">
-  
- ![Snake animation](https://github.com/SwarupanandDeshmukh/SwarupanandDeshmukh/blob/output/github-contribution-grid-snake.svg)
-  
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SwarupanandDeshmukh/SwarupanandDeshmukh/blob/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SwarupanandDeshmukh/SwarupanandDeshmukh/blob/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://github.com/SwarupanandDeshmukh/SwarupanandDeshmukh/blob/output/github-contribution-grid-snake.svg">
+</picture>
 
 ## 📫 Connect With Me
 
