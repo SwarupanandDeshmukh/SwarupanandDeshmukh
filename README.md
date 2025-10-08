@@ -11,11 +11,11 @@
 
 ## 🚀 About Me
 
-- 🔭 **Currently Working On:** MERN stack projects & ML systems
-- 🌱 **Currently Learning:** System Design, AIML, NLP, and MLOps
-- 👯 **Looking to Collaborate On:** Open-source AI/ML projects
-- 💬 **Ask me about:** Backend Development, Machine Learning, System Architecture
-- ⚡ **Fun fact:** I believe the best code is readable, maintainable, and scalable
+-  **Currently Working On:** MERN stack projects & ML systems
+-  **Currently Learning:** System Design, AIML, NLP, and MLOps
+-  **Looking to Collaborate On:** Open-source AI/ML projects
+-  **Ask me about:** Backend Development, Machine Learning, System Architecture
+-  **Fun fact:** I believe the best code is readable, maintainable, and scalable
 
 ## 🛠️ Tech Stack
 
@@ -56,8 +56,7 @@
   
 </div>
 
-## 🐍 My Contribution Graph
-
+##  My Contribution Graph
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SwarupanandDeshmukh/SwarupanandDeshmukh/blob/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/SwarupanandDeshmukh/SwarupanandDeshmukh/blob/output/github-contribution-grid-snake.svg">
