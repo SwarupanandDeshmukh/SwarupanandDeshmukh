@@ -7,8 +7,6 @@
   <i>"First, solve the problem. Then, write the code." - John Johnson</i>
 </p>
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="190" align="right">
-
 ## 🚀 About Me
 
 -  **Currently Working On:** MERN stack projects & ML systems
