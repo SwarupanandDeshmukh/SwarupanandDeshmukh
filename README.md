@@ -7,7 +7,7 @@
   <i>"First, solve the problem. Then, write the code." - John Johnson</i>
 </p>
 
-<img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width="190" align="right">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="190" align="right">
 
 ## 🚀 About Me
 
