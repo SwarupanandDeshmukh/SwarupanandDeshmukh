@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Multi-Theme Snakes
 
 on:
   schedule:
@@ -15,14 +15,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         
-      - name: Generate dark theme snake
+      - name: Generate multiple theme snakes
         uses: Platane/snk@v3
         with:
           github_user_name: SwarupanandDeshmukh
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-dark
-            dist/github-contribution-grid-snake.svg?palette=halloween
-            dist/github-contribution-grid-snake.svg?palette=github-dark-orange
+            # Default themes
+            dist/snake-light.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-halloween.svg?palette=halloween
+            dist/snake-unicorn.svg?palette=unicorn
+            # Custom colors
+            dist/snake-blue.svg?palette=#1f6feb,#388bfd,#58a6ff
+            dist/snake-purple.svg?palette=#6e40c9,#8a63d2,#a371f7
           
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
