@@ -79,7 +79,7 @@
 
 <div align="center">
   
-  <i> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." </i>
+  <i> "Any one can write code that a computer can understand. Good programmers write code that humans can understand." </i>
   
   <img src="https://komarev.com/ghpvc/?username=swarupananddeshmukh&color=blueviolet" alt="Profile Views"/>
   
