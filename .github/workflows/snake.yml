@@ -1,38 +1,31 @@
-name: Generate Multi-Theme Snakes
+name: Generate Snake
 
 on:
-  schedule:
-    - cron: "0 12 * * *"
-  workflow_dispatch:
+  schedule: # Runs every 24 hours
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows you to run it manually from Actions tab
+  push:
+    branches:
+      - main
 
 jobs:
   build:
+    name: Generate GitHub Contribution Snake
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        
-      - name: Generate multiple theme snakes
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: SwarupanandDeshmukh
           outputs: |
-            # Default themes
-            dist/snake-light.svg
-            dist/snake-dark.svg?palette=github-dark
-            dist/snake-halloween.svg?palette=halloween
-            dist/snake-unicorn.svg?palette=unicorn
-            # Custom colors
-            dist/snake-blue.svg?palette=#1f6feb,#388bfd,#58a6ff
-            dist/snake-purple.svg?palette=#6e40c9,#8a63d2,#a371f7
-          
-      - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          force_orphan: true
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
