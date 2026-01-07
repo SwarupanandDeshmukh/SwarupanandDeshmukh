@@ -43,14 +43,14 @@
 
 <div align="center">
   
-  <img src="https://github-readme-stats.vercel.app/api?username=swarupananddeshmukh&show_icons=true&theme=radical&hide_border=true" alt="Swarupanand's GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=swarupananddeshmukh&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=SwarupanandDeshmukh&show_icons=true&theme=radical&hide_border=true" alt="Swarupanand's GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SwarupanandDeshmukh&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165"/>
   
 </div>
 
 <div align="center">
   
-  ![GitHub Streak](https://streak-stats.demolab.com/?user=swarupananddeshmukh&theme=radical&hide_border=true)
+  ![GitHub Streak](https://streak-stats.demolab.com/?user=SwarupanandDeshmukh&theme=radical&hide_border=true)
   
 </div>
 
@@ -76,6 +76,6 @@
   
   <i> "Any one can write code that a computer can understand. Good programmers write code that humans can understand." </i>
   
-  <img src="https://komarev.com/ghpvc/?username=swarupananddeshmukh&color=blueviolet" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=SwarupanandDeshmukh&color=blueviolet" alt="Profile Views"/>
   
 </div>
