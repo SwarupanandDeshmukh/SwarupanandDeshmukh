@@ -87,12 +87,12 @@
     </text>
 
     <!-- Right Column: Professional Neofetch Output Setup -->
-    <text x="560" y="65" class="text-title">swarupanand@PICT</text>
+    <text x="560" y="65" class="text-title">Swarupanand Deshmukh</text>
     <text x="560" y="85" class="value">--------------------------------------------------------------</text>
     
     <!-- Education & Focus -->
     <text x="560" y="110"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Pune Institute of Computer Technology (PICT)</tspan></text>
-    <text x="560" y="130"><tspan class="cc">. </tspan><tspan class="key">Degree</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">B.E. in Computer Engineering (CGPA: 9.72)</tspan></text>
+    <text x="560" y="130"><tspan class="cc">. </tspan><tspan class="key">Degree</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">B.E. in Computer Engineering</tspan></text>
     <text x="560" y="150"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Backend Development, AI, Full-Stack Systems</tspan></text>
     
     <!-- Tech Stack Categorization -->
@@ -105,7 +105,7 @@
     <!-- Project Pipeline -->
     <text x="560" y="295" class="text-title">- Core Operations (Projects)</text>
     <text x="560" y="315"><tspan class="cc">. </tspan><tspan class="key">SmartQR Checkout</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">MERN, AI Recommendations, Razorpay API</tspan></text>
-    <text x="560" y="335"><tspan class="cc">. </tspan><tspan class="key">CodeCrew Platform</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Docker Code Isolation, Gemini AI, WebSockets, Redis</tspan></text>
+    <text x="560" y="335"><tspan class="cc">. </tspan><tspan class="key">CodeCrew Platform</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Docker Code Isolation, WebSockets, Redis</tspan></text>
 
     <!-- Certifications & Credentials -->
     <text x="560" y="370" class="text-title">- Achievements</text>
