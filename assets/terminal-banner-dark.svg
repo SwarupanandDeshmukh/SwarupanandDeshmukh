@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 620" width="100%" height="100%">
+  <defs>
+    <!-- Top-to-bottom reveal animation mask -->
+    <clipPath id="loading-clip">
+      <rect x="0" y="0" width="1280" height="0">
+        <animate attributeName="height" from="0" to="620" dur="2s" fill="freeze" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    @font-face {
+      src: local('Consolas'), local('Consolas Bold');
+      font-family: 'ConsolasFallback';
+      font-display: swap;
+    }
+    .terminal-bg { fill: #0d1117; rx: 15px; }
+    .window-header { fill: #161b22; rx: 15px; }
+    .circle-red { fill: #ff5f56; }
+    .circle-yellow { fill: #ffbd2e; }
+    .circle-green { fill: #27c93f; }
+    .key { fill: #ffa657; font-family: 'ConsolasFallback', Consolas, monospace; font-size: 14px; font-weight: bold; }
+    .value { fill: #e6edf3; font-family: 'ConsolasFallback', Consolas, monospace; font-size: 14px; }
+    .cc { fill: #484f58; font-family: 'ConsolasFallback', Consolas, monospace; font-size: 14px; }
+    .text-title { font-family: 'ConsolasFallback', Consolas, monospace; font-size: 15px; font-weight: bold; fill: #58a6ff; }
+    .text-ascii { font-family: 'ConsolasFallback', Consolas, monospace; font-size: 9.2px; fill: #ffffff; }
+    text, tspan { white-space: pre; }
+    .animated-content { clip-path: url(#loading-clip); }
+  </style>
+
+  <!-- Terminal Window Wrapper -->
+  <rect width="1280" height="620" class="terminal-bg" />
+  <path d="M0,0 H1280 V35 H0 Z" class="window-header" />
+  
+  <!-- Window Controls -->
+  <circle cx="25" cy="18" r="6" class="circle-red" />
+  <circle cx="45" cy="18" r="6" class="circle-yellow" />
+  <circle cx="65" cy="18" r="6" class="circle-green" />
+
+  <!-- Animated Terminal Content -->
+  <g class="animated-content">
+    <!-- Left Column: Up-scaled ASCII Art Rows (Height matched & Full White) -->
+    <text x="25" y="60" class="text-ascii">
+      <tspan x="25" dy="0">.................................................. . .. ............................................</tspan>
+      <tspan x="25" dy="1.18em">................................... .... ......#@@@@@@@@@@@@%%/(*...................................</tspan>
+      <tspan x="25" dy="1.18em">.....................................*(%@@@@@@@@@@@@@@@@@@@@@@@@@@@%*/* ............................</tspan>
+      <tspan x="25" dy="1.18em">........................... ../%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%//,. .....................</tspan>
+      <tspan x="25" dy="1.18em">.........................,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//..... .............</tspan>
+      <tspan x="25" dy="1.18em">......................,@&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;%(/,................</tspan>
+      <tspan x="25" dy="1.18em">.....................%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;%&amp;%,,..............</tspan>
+      <tspan x="25" dy="1.18em">...................,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#(#/..............</tspan>
+      <tspan x="25" dy="1.18em">............. ....(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;@@@@@@@@@,.............</tspan>
+      <tspan x="25" dy="1.18em">.................#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;@@@*. ...........</tspan>
+      <tspan x="25" dy="1.18em">............... #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;,&amp;.............</tspan>
+      <tspan x="25" dy="1.18em">............... @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;%###%&amp;@@@@@@@@@@@@@%/,..............</tspan>
+      <tspan x="25" dy="1.18em">...............@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;%###(((((((#%&amp;@@@@@@@@@@@@*,..............</tspan>
+      <tspan x="25" dy="1.18em">..............%@@@@@@@@@@@@@@@@@@@@@@@@&amp;&amp;%%#(((((((((((((((((((((#%&amp;&amp;#(#@@@@@@@@@@@@/...............</tspan>
+      <tspan x="25" dy="1.18em">..............&amp;@@@@@@@@@@@@@@@@@@@@@@%#(((((/////////////////(((((((/(/(%@@@@@@@@@@%*...............</tspan>
+      <tspan x="25" dy="1.18em">..............&amp;@@@@@@@@@@@@@@@@@@@&amp;##(///*******************/////(//(/(((#&amp;@@@@@@@@#,..............</tspan>
+      <tspan x="25" dy="1.18em">..............&amp;%@@@@@@@@@@@@@@@@%((//***********,,,,,**/(#(%##%%%####(/////&amp;@@@@@@@,................</tspan>
+      <tspan x="25" dy="1.18em">...............@@@@@@@@@@@@@@@&amp;########///***********,,/#&amp;%###((((((/(/#%%&amp;%@@@@@@&amp;.................</tspan>
+      <tspan x="25" dy="1.18em">.............,.@&amp;@@@@@@@@@(**%&amp;&amp;%#%%%%#((###((#((((#/((((((#(/////////(((%(%#&amp;@@@@&amp;.................</tspan>
+      <tspan x="25" dy="1.18em">...............(@&amp;*&amp;@%%&amp;&amp;&amp;&amp;###((((/((###(///*#/(/(#////(((%#%%/&amp;#%@%%((//(//*@@&amp;&amp;&amp;(/(*..............</tspan>
+      <tspan x="25" dy="1.18em">................*/%%@%&amp;@###(/((%##@@&amp;@@#(((##%#////%((/((####//(/(((((/(/(///*@(**/(((*.............</tspan>
+      <tspan x="25" dy="1.18em">................,.,,%@&amp;&amp;(//(#%&amp;&amp;%((&amp;&amp;%(###((@%/*****&amp;%(((((((((((/((/(//(///**(%*////((/............</tspan>
+      <tspan x="25" dy="1.18em">.................*#(/#%*(*(((((###(####((((%%/*******(&amp;*************/**((*****/&amp;/(/*/(/.............</tspan>
+      <tspan x="25" dy="1.18em">..............,.,##(((#**&amp;//(((((((((//***##//******//*/(%%&amp;&amp;&amp;&amp;&amp;%(//***********&amp;/****//.............</tspan>
+      <tspan x="25" dy="1.18em">.................(((((#**//(///*//((#%#(*//(///******/((///((/***,,,,,,,*****//#***/*/,.............</tspan>
+      <tspan x="25" dy="1.18em">.................*/(//(/*/********,***/(/////***,,,*******(///(#/************/(/%(*///..............</tspan>
+      <tspan x="25" dy="1.18em">..................,((/(#************/////##(/********/(//////*//*#(//*******//%(/***/...............</tspan>
+      <tspan x="25" dy="1.18em">................,,..((((*/*********//*///////(##((((%(((//////////(#//***/////%/****................</tspan>
+      <tspan x="25" dy="1.18em">.....................//(///***//////((////////*******///(/(/(//(#((#/*/**////(#.,*,.................</tspan>
+      <tspan x="25" dy="1.18em">...................,,,,/&amp;/////////#((//((((/////((///(**,*,*&amp;%(/(#/***//////(/.....................</tspan>
+      <tspan x="25" dy="1.18em">...................,,,,,*%((///////##(%@@%*(,*,*,.,,,*##((/((/**/**//////////#......................</tspan>
+      <tspan x="25" dy="1.18em">.....................,,,.,%((////////////((((///***/***///*******///////////%.......................</tspan>
+      <tspan x="25" dy="1.18em">......................,,.,,&amp;/(////////////**/*/////////*******//*****/////(#/.......................</tspan>
+      <tspan x="25" dy="1.18em">........................,.,,.*(/////////////////////***********//***/////((#//......................</tspan>
+      <tspan x="25" dy="1.18em">.......................,,,,.,.((((/((/////////***************/***//(((((#((//*......................</tspan>
+      <tspan x="25" dy="1.18em">.........................,,,,,,.#(((((////////***************////(##%%##(((///......................</tspan>
+      <tspan x="25" dy="1.18em">...........................,,.,.*/##((%#(/////////***////////(((%#%%((((((///(......................</tspan>
+      <tspan x="25" dy="1.18em">..........................,,.,,,,((((##%%%%%(((((//(/(((((%%&amp;&amp;%@&amp;(###((/////*/(.....................</tspan>
+      <tspan x="25" dy="1.18em">.................................(/((((###%&amp;&amp;&amp;&amp;&amp;%%%%%%%&amp;&amp;&amp;&amp;@&amp;%(#((((((///**/////,...................</tspan>
+      <tspan x="25" dy="1.18em">.................................((///(((((#######%##&amp;%#((/((((///////***/*///(#....................</tspan>
+      <tspan x="25" dy="1.18em">..............................,..*///////////((/(///((//(//////////*****/////(%/....................</tspan>
+      <tspan x="25" dy="1.18em">.............................,...,#////////*//////////////*///////**////////(#@,....................</tspan>
+    </text>
+
+    <!-- Right Column: High-Contrast Dark Mode Terminal Text -->
+    <text x="630" y="65" class="text-title">Swarupanand Deshmukh</text>
+    <text x="630" y="85" class="value">--------------------------------------------------------------</text>
+    
+    <!-- Education & Focus -->
+    <text x="630" y="110"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Pune Institute of Computer Technology (PICT)</tspan></text>
+    <text x="630" y="130"><tspan class="cc">. </tspan><tspan class="key">Degree</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">B.E. in Computer Engineering</tspan></text>
+    <text x="630" y="150"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Backend Development, AI, Full-Stack Systems</tspan></text>
+    
+    <!-- Tech Stack Categorization -->
+    <text x="630" y="180" class="text-title">- Skills &amp; Stack</text>
+    <text x="630" y="200"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">C, C++, Java, Python, JavaScript</tspan></text>
+    <text x="630" y="220"><tspan class="cc">. </tspan><tspan class="key">Frameworks.Web</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">React.js, Node.js, Express.js, FastAPI, Vite</tspan></text>
+    <text x="630" y="240"><tspan class="cc">. </tspan><tspan class="key">Databases</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">MongoDB, MySQL</tspan></text>
+    <text x="630" y="260"><tspan class="cc">. </tspan><tspan class="key">Tools &amp; AI</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Docker, Git, GitHub, Postman, Scikit-learn</tspan></text>
+
+    <!-- Project Pipeline -->
+    <text x="630" y="295" class="text-title">- Core Operations (Projects)</text>
+    <text x="630" y="315"><tspan class="cc">. </tspan><tspan class="key">SmartQR Checkout</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">MERN, AI Recommendations, Razorpay API</tspan></text>
+    <text x="630" y="335"><tspan class="cc">. </tspan><tspan class="key">CodeCrew Platform</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Docker Code Isolation, WebSockets, Redis</tspan></text>
+
+    <!-- Certifications & Credentials -->
+    <text x="630" y="370" class="text-title">- Achievements</text>
+    <text x="630" y="390"><tspan class="cc">. </tspan><tspan class="key">Google Internship</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">AI-ML Virtual Internship Certification</tspan></text>
+    <text x="630" y="410"><tspan class="cc">. </tspan><tspan class="key">AWS Cloud</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">AI-Powered Cloud Engineer Certification</tspan></text>
+    <text x="630" y="430"><tspan class="cc">. </tspan><tspan class="key">Hackathons</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Mastercard Code for Change Selection</tspan></text>
+
+    <!-- Communication Hub -->
+    <text x="630" y="465" class="text-title">- Contact Gateway</text>
+    <text x="630" y="485"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">swarupananddeshmukh@gmail.com</tspan></text>
+    <text x="630" y="505"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">linkedin.com/in/swarupanand-deshmukh</tspan></text>
+  </g>
+</svg>
