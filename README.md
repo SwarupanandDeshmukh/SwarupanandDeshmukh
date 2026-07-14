@@ -1,4 +1,3 @@
-<img src="https://raw.githubusercontent.com/SwarupanandDeshmukh/SwarupanandDeshmukh/main/assets/terminal-banner.svg" width="100%" alt="Terminal Banner">
 
 <h1 align="center">Hi 👋, I'm Swarupanand Deshmukh</h1>
 <h3 align="center">Building Scalable Solutions & Intelligent Systems</h3>
