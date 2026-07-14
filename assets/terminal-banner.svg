@@ -85,10 +85,5 @@
     <text x="420" y="210" class="text-body"><tspan class="text-accent">Learning: </tspan>System Design, NLP, MLOps</text>
     
     <!-- Decorative color blocks at the bottom right -->
-    <rect x="420" y="250" width="25" height="15" fill="#ff5f56" />
-    <rect x="450" y="250" width="25" height="15" fill="#ffbd2e" />
-    <rect x="480" y="250" width="25" height="15" fill="#27c93f" />
-    <rect x="510" y="250" width="25" height="15" fill="#58a6ff" />
-    <rect x="540" y="250" width="25" height="15" fill="#79c0ff" />
   </g>
 </svg>
