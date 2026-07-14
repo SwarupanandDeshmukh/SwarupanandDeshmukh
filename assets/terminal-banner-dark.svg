@@ -22,8 +22,8 @@
     .circle-yellow { fill: #ffbd2e; }
     .circle-green { fill: #27c93f; }
     
-    /* Photo Frame Preview Card (Darkened to sleek metallic slate-grey) */
-    .photo-frame { fill: #cbd5e1; stroke: #475569; stroke-width: 1.5px; rx: 10px; }
+    /* Photo Frame Preview Card */
+    .photo-frame { fill: #f6f8fa; stroke: #30363d; stroke-width: 1.5px; rx: 10px; }
     
     /* High-Contrast Syntax Highlighting */
     .key { fill: #ffa657; font-family: 'ConsolasFallback', Consolas, monospace; font-size: 14px; font-weight: bold; }
@@ -49,7 +49,7 @@
 
   <!-- Animated Terminal Content -->
   <g class="animated-content">
-    <!-- Left Column: Frosted Slate-Grey Preview Frame Card -->
+    <!-- Left Column: Frosted Preview Frame Card -->
     <rect x="15" y="45" width="590" height="545" class="photo-frame" />
 
     <!-- Left Column: Highly Recognizable ASCII Art Rows -->
