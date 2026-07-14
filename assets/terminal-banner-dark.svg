@@ -15,16 +15,25 @@
       font-family: 'ConsolasFallback';
       font-display: swap;
     }
+    /* Terminal UI Theme */
     .terminal-bg { fill: #0d1117; rx: 15px; }
     .window-header { fill: #161b22; rx: 15px; }
     .circle-red { fill: #ff5f56; }
     .circle-yellow { fill: #ffbd2e; }
     .circle-green { fill: #27c93f; }
+    
+    /* Photo Frame Preview Card */
+    .photo-frame { fill: #f6f8fa; stroke: #30363d; stroke-width: 1.5px; rx: 10px; }
+    
+    /* High-Contrast Syntax Highlighting */
     .key { fill: #ffa657; font-family: 'ConsolasFallback', Consolas, monospace; font-size: 14px; font-weight: bold; }
     .value { fill: #e6edf3; font-family: 'ConsolasFallback', Consolas, monospace; font-size: 14px; }
     .cc { fill: #484f58; font-family: 'ConsolasFallback', Consolas, monospace; font-size: 14px; }
     .text-title { font-family: 'ConsolasFallback', Consolas, monospace; font-size: 15px; font-weight: bold; fill: #58a6ff; }
-    .text-ascii { font-family: 'ConsolasFallback', Consolas, monospace; font-size: 9.2px; fill: #ffffff; }
+    
+    /* Crisp Charcoal Text for 100% Accurate ASCII Recognition */
+    .text-ascii { font-family: 'ConsolasFallback', Consolas, monospace; font-size: 9.2px; fill: #1f2328; }
+    
     text, tspan { white-space: pre; }
     .animated-content { clip-path: url(#loading-clip); }
   </style>
@@ -40,7 +49,10 @@
 
   <!-- Animated Terminal Content -->
   <g class="animated-content">
-    <!-- Left Column: Up-scaled ASCII Art Rows (Height matched & Full White) -->
+    <!-- Left Column: Frosted Preview Frame Card -->
+    <rect x="15" y="45" width="590" height="545" class="photo-frame" />
+
+    <!-- Left Column: Highly Recognizable ASCII Art Rows -->
     <text x="25" y="60" class="text-ascii">
       <tspan x="25" dy="0">.................................................. . .. ............................................</tspan>
       <tspan x="25" dy="1.18em">................................... .... ......#@@@@@@@@@@@@%%/(*...................................</tspan>
@@ -88,7 +100,7 @@
 
     <!-- Right Column: High-Contrast Dark Mode Terminal Text -->
     <text x="630" y="65" class="text-title">Swarupanand Deshmukh</text>
-    <text x="630" y="85" class="value">--------------------------------------------------------------</text>
+    <text x="630" y="85" class="cc">--------------------------------------------------------------</text>
     
     <!-- Education & Focus -->
     <text x="630" y="110"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Pune Institute of Computer Technology (PICT)</tspan></text>
